@@ -1,4 +1,4 @@
-string='this is string'
+string='a '
 
 dis={
     'a':1,
@@ -40,5 +40,9 @@ for word in words:
 print(sum)
 
 #repetation
-
-print(len(lenth))
+total=len(lenth)
+print(total)
+if sum<total:
+    print("one banana")
+else:
+    print("nothing")
