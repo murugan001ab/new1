@@ -6,8 +6,8 @@ def leter(str):
         print(output)                           #print output
     except Exception as e:
         print(e)         
-
-leter('murugan')              
+str=input("enter a string)
+leter(str)              
 #if alter use zip() 
 """
 for i,j in zip(str,range(len(str))):
